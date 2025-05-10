@@ -35,26 +35,26 @@ function App() {
       <main className="w-full h-full flex justify-center items-center">
       <section className={`border border-gray-400 ${darkMode ? "bg-gray-900 text-white" : "bg-white"} p-6 rounded-lg w-fit flex flex-col justify-center items-center gap-4`}>
 
-          <img className="w-32 h-32 rounded-full border-4 border-gray-300" src="https://github.com/gabrielangelo0.png" alt="Foto de perfil do usuário" />
+          <img className="w-32 h-32 rounded-full border-4 border-gray-300" src="https://github.com/souzaaxt.png" alt="Foto de perfil do usuário" />
 
-          <h1 className="font-bold text-2xl">Gabriel Angelo</h1>
+          <h1 className="font-bold text-2xl">Victor Souza</h1>
 
 {/* Web Developer */}
           <p className="text-slate-500">Desenvolvedor Full Stack</p>
 
           {/* Seção de Links */}
           <div className="space-y-4">
-            <Button onClick={() => redirectPage("https://www.instagram.com/gabriel.angelo__/")}>
+            <Button onClick={() => redirectPage("https://www.instagram.com/notsouzaax/")}>
               <InstagramLogo size={24} />
               <p>Instagram</p>
             </Button>
 
-            <Button onClick={() => redirectPage("https://www.linkedin.com/in/gabriel-angelo0/")}>
+            <Button onClick={() => redirectPage("https://www.linkedin.com/in/victor-souza-330b67307/")}>
               <LinkedinLogo size={24} />
               <p>Linkedin</p>
             </Button>
 
-            <Button onClick={() => redirectPage("https://github.com/gabrielangelo0")}>
+            <Button onClick={() => redirectPage("https://github.com/souzaaxt")}>
               <FacebookLogo size={24} />
               <p>Facebook</p>
             </Button>
